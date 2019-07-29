@@ -306,7 +306,7 @@ function arlo_tm_contact_form(){
 		var message 	= jQuery(".contact_form #message").val();
 		var subject 	= jQuery(".contact_form #subject").val();
 		var success     = jQuery(".contact_form .returnmessage").data('success');
-	
+	console.log("asece");
 		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
 		//checking for blank fields	
 		if(name===''||email===''||message===''){
