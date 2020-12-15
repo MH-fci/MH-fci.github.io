@@ -10,15 +10,21 @@
 
     <title>Teachers Info || CSE 29 Intake (Evening)</title>
     <style>
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 98%;
-            font-size: larger; 
-            font-weight: 700; 
-            font-family: monospace; 
-            color: #ffd1de;
-        }
+      
+      
+      .fixed-footer {
+          bottom: 0;
+          height: 25px;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          z-index: 1;
+          background: #ffffff !important;
+          color: #4b00ae;
+      }
+      
+      
+      
     </style>
   </head>
   <body>
@@ -377,15 +383,25 @@
         </div>
        
        </div>
-
-
-       <footer class="footer navbar navbar-fixed-bottom bg-primary">
-             <div class="text-center">
-                <span class="text-center"> &copy; Only For CSE 29 Intake Evening. don't Share any other intake</span>
-             </div>
-        </footer>
     </div>
 
+    
+    <div class="container" style="margin-left: -15px;">
+        <footer class="fixed-footer bg-white p-0 m-0 align-self-center">
+            <div class="copyright text-center">
+                <div class="row">
+                    <div class="col-md-12 pl-4 foo-left1 text-center">
+                        <span><small> © <script>document.write(new Date().getFullYear());</script>2020 -
+                            &copy; Only For CSE 29 Intake Evening. don't Share any other intake
+                        </small></span>
+                        <br>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
