@@ -24,8 +24,17 @@
           background: #ffffff !important;
           color: #4b00ae;
       }
-      
-      
+
+      @media screen and (max-width: 767px) {
+            div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+            text-align: left !important;
+            
+        }
+        @media screen and (max-width: 767px) {
+            div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+                justify-content: left !important;
+            }
+       
       
     </style>
   </head>
@@ -33,7 +42,7 @@
   
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Only For CSE 29 Intake</a>
+            <a class="navbar-brand" href="https://mh-fci.github.io/" target="_blank">Only For CSE 29 Intake</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -49,96 +58,114 @@
 
        <br>
       
-       <div>
-        <table id="example" class="table table-striped table-bordered" style="width:100%">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Designation</th>
-                    <th>Short Code</th>
-                    <th>Phone</th>
-                    <th>Email</th>
-                    <th>Semester</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Suman Saha</td>
-                    <td>Assistant Professor</td>
-                    <td>SS</td>
-                    <td>01912127578</td>
-                    <td>suman@bubt.edu.bd</td>
-                    <td>29 Intake Incharge</td>
-                </tr>
-                <tr>
-                    <td>Samsuddin Ahmed</td>
-                    <td>Assistant Professor</td>
-                    <td>SUA</td>
-                    <td>01554072514</td>
-                    <td>sambd86@gmail.com</td>
-                    <td>10th</td>
-                </tr>
-                <tr>
-                    <td>T.M. Amir-Ul-Haque Bhuiyan</td>
-                    <td>Assistant Professor</td>
-                    <td>TAB</td>
-                    <td>01732802625</td>
-                    <td>amir@bubt.edu.bd</td>
-                    <td>10th</td>
-                </tr>
-                <tr>
-                    <td>Md. Shahiduzzaman</td>
-                    <td>Assistant Professor</td>
-                    <td>MSZ</td>
-                    <td>01912949426</td>
-                    <td>shahid@bubt.edu.bd</td>
-                    <td>10th</td>
-                </tr>
-                <tr>
-                    <td>Md. Mamunur Rashid</td>
-                    <td>Lecturer</td>
-                    <td>MUR</td>
-                    <td>01323567848 </td>
-                    <td></td>
-                    <td>10th</td>
-                </tr>
-                <tr>
-                    <td>Sohel Rana</td>
-                    <td>Lecturer</td>
-                    <td>SHR</td>
-                    <td>01303082600</td>
-                    <td>sohel.rana@bubt.edu.bd</td>
-                    <td>9th</td>
-                </tr>
-                <tr>
-                    <td>Md. Saddam Hossain</td>
-                    <td>Lecturer</td>
-                    <td>SDH</td>
-                    <td>01781076146</td>
-                    <td>mhossain@bubt.edu.bd</td>
-                    <td>9th</td>
-
-                </tr>
-                <tr>
-                    <td>Iffat Tamanna</td>
-                    <td>Lecturer</td>
-                    <td>IFT</td>
-                    <td></td>
-                    <td>iffat@bubt.edu.bd</td>
-                    <td>9th</td>
-                </tr>
-                <tr>
-                    <td>Atiya Masuda Siddika</td>
-                    <td>Lecturer</td>
-                    <td>AMS</td>
-                    <td></td>
-                    <td>asiddika@bubt.edu.bd</td>
-                    <td>9th</td>
-                </tr>
-            </tbody>
-           
-        </table>
-       </div>
+      <div class="card">
+          <div class="card-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <table id="example" class="table table-striped table-bordered table-responsive" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Designation</th>
+                                <th>Short Code</th>
+                                <th>Phone</th>
+                                <th>Email</th>
+                                <th>Semester</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Suman Saha</td>
+                                <td>Assistant Professor</td>
+                                <td>SS</td>
+                                <td>01912127578</td>
+                                <td>suman@bubt.edu.bd</td>
+                                <td>29 Intake Incharge</td>
+                            </tr>
+                            <tr>
+                                <td>Samsuddin Ahmed</td>
+                                <td>Assistant Professor</td>
+                                <td>SUA</td>
+                                <td>01554072514</td>
+                                <td>sambd86@gmail.com</td>
+                                <td>10th</td>
+                            </tr>
+                            <tr>
+                                <td>T.M. Amir-Ul-Haque Bhuiyan</td>
+                                <td>Assistant Professor</td>
+                                <td>TAB</td>
+                                <td>01732802625</td>
+                                <td>amir@bubt.edu.bd</td>
+                                <td>10th</td>
+                            </tr>
+                            <tr>
+                                <td>Md. Shahiduzzaman</td>
+                                <td>Assistant Professor</td>
+                                <td>MSZ</td>
+                                <td>01912949426</td>
+                                <td>shahid@bubt.edu.bd</td>
+                                <td>10th</td>
+                            </tr>
+                            <tr>
+                                <td>Md. Mamunur Rashid</td>
+                                <td>Lecturer</td>
+                                <td>MUR</td>
+                                <td>01323567848 </td>
+                                <td></td>
+                                <td>10th</td>
+                            </tr>
+                            <tr>
+                                <td>Sohel Rana</td>
+                                <td>Lecturer</td>
+                                <td>SHR</td>
+                                <td>01303082600</td>
+                                <td>sohel.rana@bubt.edu.bd</td>
+                                <td>9th</td>
+                            </tr>
+                            <tr>
+                                <td>Md. Saddam Hossain</td>
+                                <td>Lecturer</td>
+                                <td>SDH</td>
+                                <td>01781076146</td>
+                                <td>mhossain@bubt.edu.bd</td>
+                                <td>9th</td>
+            
+                            </tr>
+                            <tr>
+                                <td>Iffat Tamanna</td>
+                                <td>Lecturer</td>
+                                <td>IFT</td>
+                                <td></td>
+                                <td>iffat@bubt.edu.bd</td>
+                                <td>9th</td>
+                            </tr>
+                            <tr>
+                                <td>Atiya Masuda Siddika</td>
+                                <td>Lecturer</td>
+                                <td>AMS</td>
+                                <td></td>
+                                <td>asiddika@bubt.edu.bd</td>
+                                <td>9th</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                      <div class="card">
+                          <div class="card-header bg-dark text-white">
+                              <h4>BUBT Help desk Number</h1>
+                          </div>
+                          <div class="card">
+                            <img src="168994030_3597625720461610_7692054547055760135_n.jpg" class="img-fluid" alt="">
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                </div>  
+          </div>
+      </div>
       
     </div>
   
